@@ -1,7 +1,21 @@
+#
 
-### ----------------main----------------------
 
 - git init
+- git add .
+- git commit -m "commit"
+- git remote add origin https://.......git
+- git push -u origin master
+###
+- git remote -v
+- git add .
+- git commit -m "commit"
+- git push origin master
+
+  
+#
+
+
 - ls -a
 - git status
 - git add abc.txt
@@ -13,16 +27,8 @@
 - git checkout abc.txt
 
 
-### --------------remote------------------------
+#
 
-- git remote add origin https://.......git
-- git push -u origin master
-### 
-- git remote -v
-- git push origin master
-
-
-### -------------remove-exclude------------------
 
 - touch .gitignore
 - ls -a
@@ -36,13 +42,17 @@
 /*write the file names line by line in gitignore file to exclude them in git init*/
 
 
-### ------------clone------------------------------
+#
+
 
 - git clone https://...........git
 - git log
+###
+- git clone git@github.....git
 
 
-### -----------branch------------------------------
+#
+
 
 - git branch alien-plot
 - git branch
@@ -53,3 +63,48 @@
 - git checkout master
 - git merge alien-plot
 - git push origin master -u
+### 
+- git branch firstbranch
+- git checkout firstbranch
+- git checkout master
+- git merge firstbranch
+- git rebase firstbranch
+### 
+- git branch
+- git branch -d firstbranch
+- git checkout -b newbranch
+###
+- git push origin firstbranch
+
+
+#
+
+
+- git pull origin master
+- git add -A
+- git commit -a -m "commit message"
+
+
+#
+
+
+- ssh -keygen
+- cat /c/users/ananya/id_rsa.pub
+- ssh -T git@github.com
+###
+- git checkout 802d31b4 revert.txt
+
+
+#
+
+
+- git stash -u
+- git stash list
+- git stash show
+###
+- git log --oneline
+- git revert 7af537f
+- git revert HEAD
+
+
+#
